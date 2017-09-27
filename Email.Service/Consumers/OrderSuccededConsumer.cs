@@ -8,7 +8,7 @@ namespace Email.Service.Consumers
     {
         public Task Consume(ConsumeContext<IPaymentProcessSucceded> context)
         {
-            //send email 
+            // send email 
             return Task.CompletedTask;
         }
     }
