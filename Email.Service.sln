@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Service", "Email.Service\Email.Service.csproj", "{FDE588F1-72F0-4294-87DC-4D2C23D805BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Payment.Contracts", "Shared.Payment.Contracts\Shared.Payment.Contracts.csproj", "{E36249C4-6971-434E-B41E-ED956DD66DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE588F1-72F0-4294-87DC-4D2C23D805BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE588F1-72F0-4294-87DC-4D2C23D805BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE588F1-72F0-4294-87DC-4D2C23D805BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE588F1-72F0-4294-87DC-4D2C23D805BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36249C4-6971-434E-B41E-ED956DD66DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36249C4-6971-434E-B41E-ED956DD66DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36249C4-6971-434E-B41E-ED956DD66DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36249C4-6971-434E-B41E-ED956DD66DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5181942F-1D2F-46C4-9A67-CFE942347BF2}
+	EndGlobalSection
+EndGlobal
